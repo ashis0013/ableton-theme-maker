@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+.bg {
+  height: 100%;
+  width: 100%;
+}
+
 .inp {
   background: transparent;
   color: white;
