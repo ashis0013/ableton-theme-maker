@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #505050;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Cascadia Code'
@@ -26,19 +26,20 @@ code {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
   font-family:'Cascadia Code';
   outline: none;
+  text-align: center;
 }
 
 .colorBox {
   width: 60px;
   height:60px;
-  border: 2px black;
+  border: 2px solid black;
   border-radius: 5px;
   margin-left: 28px;
 }
 
 .inputBox {
   display: flex;
-  margin: 16px;
+  margin: 48px;
   justify-content: center;
 }
 
@@ -51,4 +52,27 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #808080;
+  border: 2px solid #000;
+  border-radius: 30px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 48px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #ffb532;
 }

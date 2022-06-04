@@ -10,7 +10,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.get('/theme', (req: Request, res: Response) => {
-  editTheme(req.query['bg']?.toString() ?? '')
+  editTheme(req.query['bg']?.toString() ?? '', req.query['button']?.toString() ?? '')
   res.download(join(__dirname, '../res/Custom.ask'))
 })
 

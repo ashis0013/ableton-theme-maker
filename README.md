@@ -3,6 +3,7 @@
 Learning React and creating a custom theme maker for ableton live.
 
 ## TODO
-- [ ] Add qparam for button color
-- [ ] CSS
+- [x] Add qparam for button color
+- [x] CSS
+- [ ] Add help page
 - [ ] Host in heroku

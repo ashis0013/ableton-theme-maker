@@ -19,33 +19,33 @@
       <Alpha Value="255"></Alpha>
     </ControlDisabled>
     <MeterBackground>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </MeterBackground>
     <SurfaceHighlight>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </SurfaceHighlight>
     <SurfaceArea>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </SurfaceArea>
     <Desktop>
-      <R Value="245"></R>
-      <G Value="245"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="6"></R>
+      <G Value="21"></G>
+      <B Value="8"></B>
+      <Alpha Value="255"></Alpha>
     </Desktop>
     <ViewCheckControlEnabledOn>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </ViewCheckControlEnabledOn>
     <ScrollbarInnerHandle>
@@ -85,16 +85,16 @@
       <Alpha Value="255"></Alpha>
     </ScrollbarLCDTrack>
     <DetailViewBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </DetailViewBackground>
     <PreferencesTab>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="16"></R>
+      <G Value="31"></G>
+      <B Value="18"></B>
+      <Alpha Value="255"></Alpha>
     </PreferencesTab>
     <SelectionFrame>
       <R Value="210"></R>
@@ -103,21 +103,21 @@
       <Alpha Value="255"></Alpha>
     </SelectionFrame>
     <ControlBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </ControlBackground>
     <ControlFillHandle>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </ControlFillHandle>
     <ChosenDefault>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </ChosenDefault>
     <ChosenRecord>
@@ -151,10 +151,10 @@
       <Alpha Value="255"></Alpha>
     </RangeDisabled>
     <RangeDisabledOff>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </RangeDisabledOff>
     <LearnMidi>
       <R Value="64"></R>
@@ -331,22 +331,22 @@
       <Alpha Value="255"></Alpha>
     </StandbySelectionBackground>
     <SelectionForeground>
-      <R Value="210"></R>
-      <G Value="210"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </SelectionForeground>
     <StandbySelectionForeground>
-      <R Value="210"></R>
-      <G Value="210"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </StandbySelectionForeground>
     <SurfaceBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="16"></R>
+      <G Value="31"></G>
+      <B Value="18"></B>
+      <Alpha Value="255"></Alpha>
     </SurfaceBackground>
     <AutomationColor>
       <R Value="255"></R>
@@ -379,16 +379,16 @@
       <Alpha Value="165"></Alpha>
     </ShadowDark>
     <ShadowLight>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </ShadowLight>
     <DisplayBackground>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </DisplayBackground>
     <AbletonColor>
       <R Value="0"></R>
@@ -415,10 +415,10 @@
       <Alpha Value="255"></Alpha>
     </Alert>
     <ControlOnForeground>
-      <R Value="210"></R>
-      <G Value="210"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ControlOnForeground>
     <ControlOffForeground>
       <R Value="210"></R>
@@ -427,10 +427,10 @@
       <Alpha Value="255"></Alpha>
     </ControlOffForeground>
     <ControlOnDisabledForeground>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </ControlOnDisabledForeground>
     <ControlOffDisabledForeground>
       <R Value="140"></R>
@@ -439,39 +439,39 @@
       <Alpha Value="255"></Alpha>
     </ControlOffDisabledForeground>
     <ControlOnAlternativeForeground>
-      <R Value="210"></R>
-      <G Value="210"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ControlOnAlternativeForeground>
     <ControlTextBack>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </ControlTextBack>
     <ControlContrastFrame>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ControlContrastFrame>
     <ControlSelectionFrame>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ControlSelectionFrame>
     <ControlContrastTransport>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ControlContrastTransport>
     <Progress>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </Progress>
     <ProgressText>
@@ -487,16 +487,16 @@
       <Alpha Value="255"></Alpha>
     </TransportProgress>
     <ClipSlotButton>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </ClipSlotButton>
     <BrowserBar>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="16"></R>
+      <G Value="31"></G>
+      <B Value="18"></B>
+      <Alpha Value="255"></Alpha>
     </BrowserBar>
     <BrowserBarOverlayHintTextColor>
       <R Value="130"></R>
@@ -541,10 +541,10 @@
       <Alpha Value="255"></Alpha>
     </MidiNoteMaxVelocity>
     <RetroDisplayBackground>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </RetroDisplayBackground>
     <RetroDisplayBackgroundLine>
       <R Value="70"></R>
@@ -553,9 +553,9 @@
       <Alpha Value="255"></Alpha>
     </RetroDisplayBackgroundLine>
     <RetroDisplayForeground>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </RetroDisplayForeground>
     <RetroDisplayForeground2>
@@ -571,9 +571,9 @@
       <Alpha Value="255"></Alpha>
     </RetroDisplayForegroundDisabled>
     <RetroDisplayGreen>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </RetroDisplayGreen>
     <RetroDisplayRed>
@@ -583,9 +583,9 @@
       <Alpha Value="255"></Alpha>
     </RetroDisplayRed>
     <RetroDisplayHandle1>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </RetroDisplayHandle1>
     <RetroDisplayHandle2>
@@ -607,9 +607,9 @@
       <Alpha Value="255"></Alpha>
     </ThresholdLineColor>
     <GainReductionLineColor>
-      <R Value="255"></R>
-      <G Value="181"></G>
-      <B Value="50"></B>
+      <R Value="239"></R>
+      <G Value="47"></G>
+      <B Value="32"></B>
       <Alpha Value="255"></Alpha>
     </GainReductionLineColor>
     <InputCurveColor>
@@ -673,16 +673,16 @@
       <Alpha Value="255"></Alpha>
     </Operator4>
     <DrumRackScroller1>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </DrumRackScroller1>
     <DrumRackScroller2>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </DrumRackScroller2>
     <FilledDrumRackPad>
       <R Value="130"></R>
@@ -691,10 +691,10 @@
       <Alpha Value="255"></Alpha>
     </FilledDrumRackPad>
     <SurfaceAreaFocus>
-      <R Value="210"></R>
-      <G Value="210"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </SurfaceAreaFocus>
     <FreezeColor>
       <R Value="43"></R>
@@ -721,10 +721,10 @@
       <Alpha Value="10"></Alpha>
     </DetailGridTiles>
     <TreeColumnHeadBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </TreeColumnHeadBackground>
     <TreeColumnHeadForeground>
       <R Value="210"></R>
@@ -739,16 +739,16 @@
       <Alpha Value="255"></Alpha>
     </TreeColumnHeadSelected>
     <TreeColumnHeadFocus>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </TreeColumnHeadFocus>
     <TreeColumnHeadControl>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </TreeColumnHeadControl>
     <TreeRowCategoryForeground>
       <R Value="130"></R>
@@ -851,68 +851,68 @@
       <Alpha Value="255"></Alpha>
     </BackgroundClipFrame>
     <WarperTimeBarRulerBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="16"></R>
+      <G Value="31"></G>
+      <B Value="18"></B>
+      <Alpha Value="255"></Alpha>
     </WarperTimeBarRulerBackground>
     <WarperTimeBarMarkerBackground>
-      <R Value="245"></R>
-      <G Value="245"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="6"></R>
+      <G Value="21"></G>
+      <B Value="8"></B>
+      <Alpha Value="255"></Alpha>
     </WarperTimeBarMarkerBackground>
     <MinVelocityNoteBlendFactor Value="0.200000003"></MinVelocityNoteBlendFactor>
     <StripedBackgroundShadeFactor Value="0.8999999762"></StripedBackgroundShadeFactor>
     <AutomationLaneHeaderAlpha Value="60"></AutomationLaneHeaderAlpha>
     <AutomationLaneClipBodyAlpha Value="60"></AutomationLaneClipBodyAlpha>
     <BipolarPotiTriangle>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </BipolarPotiTriangle>
     <Poti>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </Poti>
     <DeactivatedPoti>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </DeactivatedPoti>
     <PotiNeedle>
-      <R Value="220"></R>
-      <G Value="220"></G>
+      <R Value="0"></R>
+      <G Value="0"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </PotiNeedle>
     <DeactivatedPotiNeedle>
-      <R Value="240"></R>
-      <G Value="240"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="1"></R>
+      <G Value="16"></G>
+      <B Value="3"></B>
+      <Alpha Value="255"></Alpha>
     </DeactivatedPotiNeedle>
     <TransportOffBackground>
-      <R Value="230"></R>
-      <G Value="230"></G>
+      <R Value="0"></R>
+      <G Value="6"></G>
       <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <Alpha Value="255"></Alpha>
     </TransportOffBackground>
     <TransportOffDisabledForeground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="20"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="36"></R>
+      <G Value="51"></G>
+      <B Value="38"></B>
+      <Alpha Value="255"></Alpha>
     </TransportOffDisabledForeground>
     <TransportSelectionBackground>
-      <R Value="255"></R>
-      <G Value="255"></G>
-      <B Value="0"></B>
-      <Alpha Value="NaN"></Alpha>
+      <R Value="16"></R>
+      <G Value="31"></G>
+      <B Value="18"></B>
+      <Alpha Value="255"></Alpha>
     </TransportSelectionBackground>
   </SkinManager>
 </Ableton>

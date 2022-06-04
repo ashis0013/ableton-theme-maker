@@ -16,3 +16,5 @@ export const fieldsArray = [
 
 export const fieldOffsets = [85, 65, 55, 50, 40, 30, 20]
 export const channels = ['R', 'G', 'B', 'Alpha']
+
+export const buttonFields = ['ViewCheckControlEnabledOn', 'ChosenDefault', 'Progress', 'RetroDisplayForeground', 'RetroDisplayGreen', 'RetroDisplayHandle1', 'GainReductionLineColor']

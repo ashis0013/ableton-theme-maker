@@ -21,7 +21,7 @@ export default function ColorInput({ color, isNextPage, setColor }: Props) {
 
   return (
     <div className='inputBox'>
-      <input type="text" placeholder='Enter hex color' value={field} className='inp' onChange={(e) => {
+      <input type="text" placeholder={`Enter hex color (${isNextPage ? 'button' : 'bg'})`} value={field} className='inp' onChange={(e) => {
         setField(e.target.value)
         updateColor(e.target.value, setColor)
       }}/>
