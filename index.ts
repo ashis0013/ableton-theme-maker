@@ -3,7 +3,6 @@ import { join, resolve } from 'path';
 import { editTheme } from './themeWriter';
 
 const app: Express = express()
-const port = process.env.PORT || 3001
 
 app.use(express.static(resolve(__dirname, 'client/build')));
 
