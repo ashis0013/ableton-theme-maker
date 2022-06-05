@@ -1,7 +1,8 @@
 import { useState } from 'react';
+import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom';
 import ColorInput from './components/ColorInput';
 
-function App() {
+function Home() {
   const [buttonText, setButtonText] = useState('Next')
   const [color, setColor] = useState('#505050')
   const [bgColor, setBgColor] = useState('#505050')
@@ -29,12 +30,41 @@ function App() {
     setFlag(true)
   }
 
+  const navigate = useNavigate()
+
   return (
+    <>
+      <div className='content'>
+        <ColorInput color={color} isNextPage={isNextPage} setColor={setColor}/>
+        <button onClick={isNextPage ? handleDownload: saveBgChoice} disabled={isDisabled} className='button-74'>{buttonText}</button>
+      </div>
+      <button className='button-84' onClick={() => {
+        navigate('help')
+      }}>Need help?</button>
+    </>
+  )
+}
+
+function Help() {
+  return(
     <div className='content'>
-      <ColorInput color={color} isNextPage={isNextPage} setColor={setColor}/>
-      <button onClick={isNextPage ? handleDownload: saveBgChoice} disabled={isDisabled} className='button-74'>{buttonText}</button>
+      <h1>Here is how to use</h1>
+      <ul>
+        <li>Move the downloaded file to C:\AppData\Ableton\Resources\Themes</li>
+        <li>Rename the file by adding proper sereal number and a name of your choice. eg: 05oneDark.ask</li>
+        <li>Open Ableton live and change the theme 🔥</li>
+      </ul>
     </div>
   )
 }
 
-export default App
+export default function App() {
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path="/help" element={<Help/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
+}
