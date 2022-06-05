@@ -1,16 +1,14 @@
 import { XMLBuilder, XMLParser } from "fast-xml-parser";
-import { appendFileSync, readFile, readFileSync, writeFile, writeFileSync } from "fs";
-import { join, parse } from "path";
-import { fieldsArray, options, channels, fieldOffsets, buttonFields} from './constants'
+import { readFileSync, writeFileSync } from "fs";
+import { join } from "path";
+import { fieldsArray, options, channels, fieldOffsets, buttonFields } from './constants'
 
 export function editTheme(bgHex: string, buttonHex: string) {
   const xmlParser = new XMLParser(options)
   const jObj = xmlParser.parse(readFileSync(join(__dirname, '../res/Dark.ask'), 'utf-8'))
   setBackground(jObj['Ableton']['SkinManager'], bgHex, buttonHex)
   const builder = new XMLBuilder(options)
-  const xml = builder.build(jObj)
-  const writePath = join(__dirname, '../res/Custom.ask')
-  writeFileSync(writePath, xml)
+  writeFileSync(join(__dirname, '../res/Custom.ask'), builder.build(jObj))
 }
 
 function setBackground(jsonObj:any, hexColor: string, butColor:string) {
@@ -25,10 +23,7 @@ function setBackground(jsonObj:any, hexColor: string, butColor:string) {
   })
 }
 
-const calcColor = (hexColor: string, l: number, r: number, offset: number = 65) => {
-  const c = clamp(offset - 65 + parseInt(hexColor.slice(l, r) || 'ff', 16))
-  console.log(c)
-  console.log(hexColor)
-  return c
-}
+const calcColor = (hexColor: string, l: number, r: number, offset: number = 65) =>
+  clamp(offset - 65 + parseInt(hexColor.slice(l, r) || 'ff', 16))
+
 const clamp = (color: number) => Math.min(Math.max(color, 0), 255)
