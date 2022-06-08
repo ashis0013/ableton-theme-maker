@@ -47,7 +47,7 @@ function Home() {
 
 function Help() {
   return(
-    <div className='content'>
+    <div className='content' style={{color: '#ffffff'}}>
       <h1>Here is how to use</h1>
       <ul>
         <li>Move the downloaded file to C:\AppData\Ableton\Resources\Themes</li>

@@ -3,8 +3,7 @@ import { join, resolve } from 'path';
 import { editTheme } from './themeWriter';
 
 const app: Express = express()
-
-app.use(express.static(resolve(__dirname, 'client/build')));
+const port = process.env.PORT || 3001
 
 app.get('/theme', (req: Request, res: Response) => {
   editTheme(req.query['bg']?.toString() ?? '', req.query['button']?.toString() ?? '')
@@ -12,5 +11,9 @@ app.get('/theme', (req: Request, res: Response) => {
 })
 
 app.get('*', (_, res: Response) => {
-  res.sendFile(resolve(__dirname, 'client/build', 'index.html'));
+  res.sendFile(resolve(__dirname, '../client/build', 'index.html'));
 })
+
+app.listen(port, () => {
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+});
