@@ -1,0 +1,111 @@
+body {
+  background-color: #505050;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Cascadia Code'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul,ol,dl,p {
+  font-size: 1.5rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+}
+
+.inp {
+  background: transparent;
+  color: white;
+  font-size: 34px;
+  border: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+  font-family:'Cascadia Code';
+  outline: none;
+  text-align: center;
+}
+
+.colorBox {
+  width: 60px;
+  height:60px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 28px;
+}
+
+.inputBox {
+  display: flex;
+  margin: 48px;
+  justify-content: center;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-74 {
+  background-color: #808080;
+  border: 2px solid #000;
+  border-radius: 30px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 32px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover:enabled {
+  background-color: #ffb532;
+}
+
+.button-84 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 24px;
+  background-color: #808080;
+  border: 2px solid #000;
+  border-radius: 30px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 38px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-84:hover {
+  background-color: #ffb532;
+}
