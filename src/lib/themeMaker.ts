@@ -16,7 +16,7 @@ function setBackground(jsonObj: any, hexColor: string, butColor:string) {
   fieldsArray.forEach((fields, i) => {
     fields.forEach((field) => {
       channels.forEach((channel, j) => 
-        (field === 'MeterBackground') && console.log(calcColor(hexColor, j*2, j*2+2, j > 2 ? 65 : fieldOffsets[i])))
+        jsonObj[field][channel]['Value'] = calcColor(hexColor, j*2, j*2+2, j > 2 ? 65 : fieldOffsets[i]))
     })
   })
   buttonFields.forEach((field) => {
