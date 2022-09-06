@@ -1,6 +1,6 @@
 import { Component, createSignal } from 'solid-js';
 import { Input } from './Input';
-import { createTheme } from './lib/themeMaker';
+import { createTheme } from '../utils/themeMaker';
 
 const App: Component = () => {
   const [color, setColor] = createSignal('')

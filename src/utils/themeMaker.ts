@@ -1,10 +1,10 @@
 import { XMLBuilder, XMLParser } from "fast-xml-parser";
 import { ask, fieldsArray, options, channels, fieldOffsets, buttonFields } from './constants'
-import { isValid, putHex } from "./utils";
+import { isValidHexColor, putHex } from "./hexValidator";
 
 export function createTheme(bgHex: string = '414141', buttonHex: string) {
-  bgHex = isValid(putHex(bgHex)) ? putHex(bgHex).slice(1) : '414141'
-  buttonHex = isValid(putHex(buttonHex)) ? putHex(buttonHex).slice(1): 'ffb532'
+  bgHex = isValidHexColor(putHex(bgHex)) ? putHex(bgHex).slice(1) : '414141'
+  buttonHex = isValidHexColor(putHex(buttonHex)) ? putHex(buttonHex).slice(1): 'ffb532'
   const xmlParser = new XMLParser(options)
   const jObj = xmlParser.parse(ask)
   setBackground(jObj['Ableton']['SkinManager'], bgHex, buttonHex)
