@@ -11,7 +11,7 @@ export const Input: Component<InputProps> = ({ref, color, setColor}) => {
   const updateColor = (color: string) => isValidHexColor(color) && setColor(color)
   return (
     <div class='inputBox'>
-    <input class='inp' ref={ref} type='text' onInput={(e) => updateColor(putHex(e.currentTarget.value))} />
+    <input class='inp' ref={ref} type='text' placeholder='Enter hex for bg' onInput={(e) => updateColor(putHex(e.currentTarget.value))} />
       <div class='colorBox' style={{ "background-color": color() }}></div>
     </div>
   )

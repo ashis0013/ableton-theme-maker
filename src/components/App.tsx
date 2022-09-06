@@ -14,7 +14,10 @@ const App: Component = () => {
 
   const goNextPage = () => {
     setNextPage(true)
-    if (inputRef) inputRef.value = ''
+    if (inputRef) {
+      inputRef.value = ''
+      inputRef.placeholder = 'Enter hex for button'
+    }
     document.body.style.backgroundColor = color()
     bgColor = color()
   }
